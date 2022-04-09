@@ -36,7 +36,7 @@ models:
     marts:
       core:
         +materialized: table
-    staging
+    staging:
       +materialized: view
     # Applies to all files under models/example/
     example:
